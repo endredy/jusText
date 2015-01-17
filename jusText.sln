@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jusText", "jusText.vcproj", "{D7B543C5-F315-4BE4-95E7-D4578E16801F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{63D82F56-4B5F-4616-A3D7-2E6A4A752316} = {63D82F56-4B5F-4616-A3D7-2E6A4A752316}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "htmlcxx", "htmlcxx-0.84\htmlcxx.vcproj", "{63D82F56-4B5F-4616-A3D7-2E6A4A752316}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7B543C5-F315-4BE4-95E7-D4578E16801F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D7B543C5-F315-4BE4-95E7-D4578E16801F}.Debug|Win32.Build.0 = Debug|Win32
+		{D7B543C5-F315-4BE4-95E7-D4578E16801F}.Release|Win32.ActiveCfg = Release|Win32
+		{D7B543C5-F315-4BE4-95E7-D4578E16801F}.Release|Win32.Build.0 = Release|Win32
+		{63D82F56-4B5F-4616-A3D7-2E6A4A752316}.Debug|Win32.ActiveCfg = Debug|Win32
+		{63D82F56-4B5F-4616-A3D7-2E6A4A752316}.Debug|Win32.Build.0 = Debug|Win32
+		{63D82F56-4B5F-4616-A3D7-2E6A4A752316}.Release|Win32.ActiveCfg = Release|Win32
+		{63D82F56-4B5F-4616-A3D7-2E6A4A752316}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
