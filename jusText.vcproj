@@ -134,7 +134,7 @@
 				Name="VCLinkerTool"
 				AdditionalDependencies="pcrecpp.lib pcre.lib"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="$(EXTERNALPATH)/lib_debug;$(EXTERNALPATH)/lib"
+				AdditionalLibraryDirectories="$(EXTERNALPATH)/lib"
 				GenerateDebugInformation="true"
 				SubSystem="1"
 				OptimizeReferences="2"
