@@ -1,4 +1,5 @@
-JusText boilerplate removal algorithm in c++
+
+## JusText boilerplate removal algorithm in c++
 
 
 JusText is written by Jan Pomikalek, in python. 
@@ -7,17 +8,17 @@ https://code.google.com/p/justext/
 
 It has very good quality, so I have rewritten it in c++. :)
 
-Background
+## Background
 
 This work is a part of a great project, which compared more boilerplate removal algorithms, and aims to create a better web crawler.
 JusText gives better quality if we add a web site specific html preprocess. This ideal was called 'gold miner' algorithm and was introduced at MICAI conference, 2013 (http://polibits.gelbukh.com/2013_48/More%20Effective%20Boilerplate%20Removal%20-%20the%20GoldMiner%20Algorithm.pdf) 
 
-Dependencies
+## Dependencies
 
 It has two dependencies: pcrecpp and htmlcxx library. Last one is attached to project, it helps to parse the html. 
 Other one has to be linked.
 
-Usage
+## Usage
 
 Example for usage is in the test.cpp
 
@@ -31,7 +32,7 @@ Example for usage is in the test.cpp
 	std::string result = j.getContent(html, encoding, url);
 
 
-Features
+## Features
 
 When i tested the tool on web pages, it took longer time to debug: why a given paragraph is bad or good.
 That's why it can show in the tooltip of the paragraphs not only the stopwords/length/etc info, but the reason as well: why it is bad or good according to jusText.
