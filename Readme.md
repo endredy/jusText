@@ -18,6 +18,15 @@ JusText gives better quality if we add a web site specific html preprocess. This
 It has two dependencies: pcrecpp and htmlcxx library. Last one is attached to project, it helps to parse the html. 
 Other one has to be linked.
 
+## Compile
+
+windows:  
+vcproj files might help. (goldMinerTester.vcproj depends on src/goldMiner.vcproj, jusText/jusText.vcproj, jusText/htmlcxx-0.84/htmlcxx.vcproj)  
+  
+linux:  
+make  
+
+
 ## Usage
 
 Example for usage is in the test.cpp

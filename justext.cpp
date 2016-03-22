@@ -1,3 +1,19 @@
+/*******************************************************************************
+ * Copyright (c) 2013 István Endredy.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the GNU Lesser Public License v3
+ * which accompanies this distribution, and is available at
+ * http://www.gnu.org/licenses/
+ *  
+ * JusText is written by Jan Pomikalek, in python.
+ * https://code.google.com/p/justext/
+ *  It has very good quality, so I have rewritten it in c++. :)
+ * 
+ * This is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser Public License for more details.
+ ******************************************************************************/
 #include "justext.h"
 #include <fstream>
 #include "tools.h"
